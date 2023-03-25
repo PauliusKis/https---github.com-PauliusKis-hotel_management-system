@@ -1,0 +1,29 @@
+.room_card_container {
+  box-shadow: 0 2px 4px 0 rgb(114, 108, 108);
+  padding: 15px 60px;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #696e79;
+  margin: 5px;
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+  }
+  &:active:hover {
+    background-color: #51555e;
+  }
+}
+
+.room_container {
+  padding: 230px 200px;
+  border-radius: 2px;
+  color: #ffffff;
+  background-color: #696e79;
+  margin: 5px;
+  &_header {
+    position: absolute;
+    top: 35px;
+    text-align: center;
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+.guest_card_container{
+    box-shadow: 0 2px 4px 0 rgb(114, 108, 108);
+    transition: 0.2s;
+    padding: 3px 16px;
+    border-radius: 2px;
+    color: #FFFFFF;
+    background-color: #696E79;
+    margin: 5px;
+
+  
+}
+.guest_card_container:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
